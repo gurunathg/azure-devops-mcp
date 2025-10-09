@@ -1,5 +1,4 @@
-name: Release Latest Version
-
+name: Build and Push Docker image
 on:
   schedule:
     - cron: "0 0 * * 1" # Every Monday at 00:00 UTC
